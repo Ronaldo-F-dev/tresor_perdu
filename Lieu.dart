@@ -6,10 +6,10 @@ class Lieu {
   List<Obstacle> obstacles;
   Lieu(this.nom, this.obstacles);
   Future<void> explorer(Aventurier joueur) async {
-    print("\n🌍 $nom");
+    print("\n$nom");
     for (Obstacle obstacle in obstacles) {
       await obstacle.affronter(joueur);
     }
-    print("🎉 Tu as terminé l'exploration de $nom !\n");
+    print("Tu as terminé l'exploration de $nom !\n");
   }
 }
