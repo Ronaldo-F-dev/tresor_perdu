@@ -12,11 +12,11 @@ void main() async {
   Aventurier joueur = Aventurier(nom: nom);
   List<Lieu> lieux = [
     Lieu("Zone interdite", [
-      Enigme("Quel est le numéro de Mbappé au Réal Madrid ?", "7"),
+      Enigme("Quel est le numéro de Mbappé au Réal Madrid ?", "9"),
       Piege(),
       Gardien()
     ]),
-    Lieu("Quintanaroo", [Piege(), Enigme("4 * 9 = ?", "36"), Gardien()]),
+    Lieu("Couvent", [Piege(), Enigme("4 * 9 = ?", "36"), Gardien()]),
     Lieu("Temple de Python de Ouidah", [
       Gardien(),
       Piege(),
